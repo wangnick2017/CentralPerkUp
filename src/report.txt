@@ -1,0 +1,24 @@
+﻿错误记录：
+reg1_o <= 1'b1;
+reg2_o <= 1'b1;
+写成
+reg1_o <= 1'b1;
+reg1_o <= 1'b1;
+
+时序 逻辑 控制
+
+锁存器问题
+
+store指令的周期错开问题
+
+读输入数据的两周期问题
+
+写cache前优化时序
+
+forwarding时要考虑“向0寄存器内写”的问题
+
+
+up processor:
+(1)/(2) 不带cache的正确版本
+(3) 带instruction cache 五周期读写
+(4) 带instruction cache 八周期读写
